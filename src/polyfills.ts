@@ -54,6 +54,11 @@
  *
  */
 
+import 'jquery';
+import 'popper.js';
+import 'bootstrap';
+import 'zone.js';
+
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */

@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery-ui.min.js",
+              "src/assets/js/tether.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/form_builder.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,7 +100,13 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery-ui.min.js",
+              "src/assets/js/tether.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/form_builder.js"
+            ]
           }
         },
         "lint": {
